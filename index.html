@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Currency Converter</title>
+ 
+</head>
+<body>
+  <div id="converter">
+    <h2>Currency Converter</h2>
+    <input type="number" id="amount" placeholder="Enter amount in USD">
+    <select id="currency">
+      <option value="EUR">Euro (EUR)</option>
+      <option value="GBP">British Pound (GBP)</option>
+      <option value="LBP">Lebanese Pound (LBP)</option>
+      <option value="INR">Indian Rupee (INR)</option>
+      <option value="CAD">Canadian Dollar (CAD)</option>
+      <option value="AUD">Australian Dollar (AUD)</option>
+    </select>
+    <button onclick="convertCurrency()">Convert</button>
+    <div id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
